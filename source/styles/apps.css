@@ -1,0 +1,119 @@
+main h1{
+   margin-bottom: 1.625rem;
+}
+
+p{
+   text-align: justify;
+}
+
+.logoapp{
+   border-radius: 50%;
+   padding: 10px;
+}
+
+ .topic-1{
+   margin-top: 10.938rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+
+ .topic-1 ul{
+   width: 81.25rem;
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 4.375rem;
+ }
+
+ .topic-1 ul h2{
+   text-align: center;
+   font-size: 1.875rem;
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   margin-bottom: 2rem;
+ }
+
+ .topic-1 ul h3{
+   text-align: center;
+   font-size: 1.5rem;
+   font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   margin-bottom: 1rem;
+ }
+
+ .topic-1 ul img{
+   width: 25%;
+ }
+
+ .part-1{
+   color: #1d99ff;
+ }
+
+ .part-2{
+   color: #bb27ff;
+   margin-bottom: 10rem;
+ }
+ .app{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .download{
+   font-size: 1.25rem;
+   margin: 0 0.313rem 0 1.25rem;
+   font-family: "Inconsolata", monospace;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings: "wdth" 100;
+ }
+
+ .topic-1 ul a{
+   color: white;
+   padding: 0.625rem;
+   font-size: 1.563rem;
+ }
+
+ a:hover{
+   opacity: 0.8;
+ }
+
+
+@media screen and (max-width: 1280px){
+   .topic-1{
+      margin-top: 6rem;
+   }
+
+   .topic-1 ul{
+      width: 95%;
+      grid-template-columns: auto;
+   }
+
+   .topic-1 ul h2{
+    font-size: 1.5rem;
+    margin-bottom: 9%;
+   }
+
+   .topic-1 ul h3{
+    font-size: 1.35rem;
+    margin-bottom: 8%;
+   }
+
+   .topic-1 ul img{
+    width: 23%;
+   }
+
+   .part-2{
+    margin-bottom: 0;
+    }
+
+    #last{
+      margin-bottom: 3rem;
+    }
+}

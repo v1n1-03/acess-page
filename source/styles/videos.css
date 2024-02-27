@@ -1,0 +1,52 @@
+main h1{
+   margin-bottom: 3.4rem;
+ }
+
+.topic-1{
+   margin-top: 10.938rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+ }
+.topic-1 ul{
+   width: 75rem;
+}
+ .topic-1 ul li{
+   margin-bottom: 13rem;
+   display: grid;
+   grid-template-columns: auto auto;
+ }
+
+ .topic-1 ul h2{
+   color: #1151ff;
+   font-size: 2rem;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   margin-bottom: 5rem;
+ }
+
+
+@media screen and (max-width: 1280px){
+   main h1{
+      margin-bottom: 2rem;
+   }
+
+   .topic-1{
+      margin-top: 6.5rem;
+   }
+  .topic-1 ul{
+      width: 90%;
+  }
+   .topic-1 ul li{
+      margin-bottom: 15%;
+      grid-template-columns: auto;
+   }
+  
+   .topic-1 ul h2{
+      margin-bottom: 2.5rem;
+   }
+  
+}

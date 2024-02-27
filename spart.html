@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Integrador</title>
+    <link rel="stylesheet" href="source/styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="source/styles/header.css">
+    <link rel="stylesheet" href="source/styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="source/styles/animation.css">
+</head>
+<body> 
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <div class="area">
+       <header>
+            <nav class="topbar">
+                <section class="topbar-content">
+                    <ul>
+                        <li><a href="#"><img src="source/pictures/logoredes.png" alt="Logo do curso de redes."></a></li>
+                        <li><h1>Para aprender mais</h1></li>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="apps.html">Apps</a></li>
+                        <li><a href="videos.html">Vídeos</a></li>
+                        <li><a href="spart.html">Sobre</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </header>
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+    </div>
+    <main>
+        <div class="main-container">
+            <section class="topic-1">
+                    <a href="#" id="up">
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <p>voltar ao topo</p>
+                    </a>
+                    <div class="text-box">
+                        <h1 class="title">A importância de aprender a se comunicar com eles:</h1>
+                        <p class="text">Comunicar-se eficazmente com pessoas com deficiência é fundamental para construir uma sociedade inclusiva. Ao aprender a compreender suas necessidades e explorar a linguagem de sinais, não apenas derrubamos barreiras de comunicação, mas também promovemos uma interação mais rica e significativa. Investir na empatia e na aprendizagem de formas inclusivas de comunicação é um passo crucial para construir uma comunidade onde todos se sintam ouvidos, respeitados e valorizados por suas contribuições únicas.</p>
+                    </div>
+                    <img src="https://www.libras.com.br/ct__images/artigos/alfabeto-manual/alfabeto-manual.png" alt="Alfabeto de libras.">
+            </section>
+            <section data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="topic-2">
+                    <h1 class="title">Tipos de deficiência:</h1>
+                    <ul>
+                        <li>
+                            <h2>Deficiência auditiva</h2>
+                            <p>A deficiência auditiva, caracterizada pela perda parcial ou total da audição, destaca a importância de uma comunicação inclusiva. Pessoas com deficiência auditiva enfrentam desafios na interação diária, tornando crucial o uso de linguagem gestual. Estabelecer uma comunicação efetiva promove a inclusão.</p>
+                            <i class="fa-solid fa-ear-deaf"></i>
+                        </li>
+                        <li>
+                            <h2>Deficiência visual</h2>
+                            <p>Na deficiência visual, a comunicação assume uma dimensão tátil e auditiva. Adaptações como o braille, facilitam a interação. Além disso, uma comunicação verbal mais detalhada e a descrição do ambiente são essenciais. Estar atento às necessidades individuais e utilizar métodos inclusivos fortalece a compreensão entre as pessoas.</p>
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </li>
+                        <li>
+                            <h2>Deficiência física</h2>
+                            <p>A deficiência física ressalta a importância da comunicação acessível em ambientes adaptados. A utilização de tecnologias assistivas e a criação de espaços fisicamente acessíveis são fundamentais. Além disso, práticas inclusivas, como a paciência entender as necessidades individuais, contribuem para uma comunicação efetiva.</p>
+                            <i class="fa-solid fa-wheelchair-move"></i>
+                        </li>
+                        <li>
+                            <h2>Deficiência intelectual</h2>
+                            <p>No caso da deficiência intelectual, a comunicação eficaz desempenha um papel crucial no apoio e na inclusão. Técnicas de comunicação claras, apoio terapêutico e a promoção de ambientes inclusivos são fundamentais. Entender as preferências e necessidades individuais é essencial para estabelecer uma conexão significativa.</p>
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                        </li>
+                    </ul>
+            </section>
+            <section class="topic-3">
+                <h1 class="title">Seções para aplicativos e vídeos destinados a ajudar:</h1>
+                <ul>
+                    <li><a href="apps.html" id="app">Apps</a></li>
+                    <li><a href="videos.html" id="video">Vídeos</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="source/js/top-button.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

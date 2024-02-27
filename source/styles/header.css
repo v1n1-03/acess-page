@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body,html{
+    background-image: linear-gradient( 110.1deg,  rgb(35, 3, 95) 44.2%, rgb(15, 2, 31) 138.2% );
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    overflow-x: hidden;
+}
+
+.title{
+    font-size: 2.3rem;
+    color: #8400db;
+    font-family: 'Kanit', sans-serif;
+ }
+ 
+ .text{
+     font-size: 0.9rem;
+     color: white;
+     font-family: 'Arimo', sans-serif;
+     line-height: 16.5px;
+ }
+
+.topbar{
+    z-index: 1;
+    width: 100%;
+}
+
+.topbar-content ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar-content ul li img{
+    padding: 10px 0 10px 0;
+    width: 90px;
+}
+
+.topbar-content ul li h1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+
+.topbar-content ul li a{
+    text-decoration: none;
+    color: #8f2dff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+
+.topbar-content ul li a:hover{
+    transition: background 1s;
+    background-image: linear-gradient(60deg, #147d8b, #d8e2e6);
+    background-clip: text;
+    color: transparent;
+}
+
+.topbar ul li a img:hover{
+    opacity: 0.8;
+}
+
+#up{
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: #bb2ffc;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    top: 0;
+    margin-top: 6.5rem;
+    z-index: 3;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#up:hover{
+    transition: background 1s;
+    opacity: 0.9;
+}
+
+.main-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1280px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+    .title{
+        font-size: 1.6rem;
+     }
+     
+     .text{
+        font-size: 0.65rem;
+        line-height: normal;
+     }
+
+     .topbar-content ul{
+        gap: 14px;
+        padding: 10px 10% 10px 10%;
+    }
+    
+    .topbar-content ul li img{
+        width: 70px;
+    }
+
+    .topbar-content ul li h1{
+        font-size: 0.9rem;
+    }
+    
+    .topbar-content ul li a{
+        font-size: 0.9rem;
+    }
+}
